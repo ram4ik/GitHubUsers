@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var fetch = FetchUsers()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(fetch.items, id: \.login) { user in
+            Link(destination: URL(string: user.html_url)!, label: {
+                VStack(alignment: .leading) {
+                    Text(user.login)
+                    Text("\(user.url)")
+                        .font(.system(size: 11))
+                        .foregroundColor(Color.gray)
+                }
+            })
+        }
     }
 }
 

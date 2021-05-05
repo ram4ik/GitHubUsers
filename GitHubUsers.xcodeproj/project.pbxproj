@@ -11,6 +11,9 @@
 		1D781D44264309E6007CCB1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D781D43264309E6007CCB1D /* ContentView.swift */; };
 		1D781D46264309E9007CCB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D781D45264309E9007CCB1D /* Assets.xcassets */; };
 		1D781D49264309E9007CCB1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D781D48264309E9007CCB1D /* Preview Assets.xcassets */; };
+		1D781D5126430A4D007CCB1D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D781D5026430A4D007CCB1D /* Result.swift */; };
+		1D781D5326430A7D007CCB1D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D781D5226430A7D007CCB1D /* User.swift */; };
+		1D781D5526430B3D007CCB1D /* FetchUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D781D5426430B3D007CCB1D /* FetchUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		1D781D45264309E9007CCB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D781D48264309E9007CCB1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D781D4A264309E9007CCB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D781D5026430A4D007CCB1D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1D781D5226430A7D007CCB1D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1D781D5426430B3D007CCB1D /* FetchUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUsers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				1D781D45264309E9007CCB1D /* Assets.xcassets */,
 				1D781D4A264309E9007CCB1D /* Info.plist */,
 				1D781D47264309E9007CCB1D /* Preview Content */,
+				1D781D5026430A4D007CCB1D /* Result.swift */,
+				1D781D5226430A7D007CCB1D /* User.swift */,
+				1D781D5426430B3D007CCB1D /* FetchUsers.swift */,
 			);
 			path = GitHubUsers;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D781D5326430A7D007CCB1D /* User.swift in Sources */,
+				1D781D5126430A4D007CCB1D /* Result.swift in Sources */,
+				1D781D5526430B3D007CCB1D /* FetchUsers.swift in Sources */,
 				1D781D44264309E6007CCB1D /* ContentView.swift in Sources */,
 				1D781D42264309E6007CCB1D /* GitHubUsersApp.swift in Sources */,
 			);
